@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shifat Haidar Al-Amin</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <style>
+  
+    body { scroll-behavior: smooth; }
+    .sidebar {
+      position: fixed; top: 0; bottom: 0; left: 0;
+      width: 280px; padding: 1.25rem; overflow-y: auto;
+      background: #f8f9fa; border-right: 1px solid #e9ecef;
+    }
+    .main {
+      margin-left: 280px; 
+    }
+  
+    .section-title {
+      font-weight: 700; margin-bottom: 1rem;
+      padding: .5rem 0; border-bottom: 2px solid #e9ecef;
+    }
+   
+    .sidebar .nav-link.active { font-weight: 700; color: #0d6efd; }
+   
+    .profile-pic {
+      width: 120px; height: 120px; object-fit: cover;
+      border-radius: 50%; border: 3px solid #dee2e6;
+    }
+    @media (max-width: 991.98px) {
+      .sidebar { position: static; width: 100%; border-right: 0; }
+      .main { margin-left: 0; }
+    }
+  </style>
+  <!-- Open Graph / SEO basics -->
+  <meta name="description" content="Shifat Haidar Al-Amin — PhD student in Computer Science at UMass Lowell. Research, Teaching, Media, and Contact." />
+  <meta property="og:title" content="Shifat Haidar Al-Amin" />
+  <meta property="og:description" content="PhD student in Computer Science at UMass Lowell." />
+  <meta property="og:type" content="website" />
+</head>
+<body data-bs-spy="scroll" data-bs-target="#sideNav" data-bs-offset="120" tabindex="0">
+
+  <!-- Sidebar -->
+  <aside class="sidebar d-lg-block">
+    <div class="text-center mb-3">
+  
+      <img src="assets/img/IMG_0942.jpg" alt="Shifat Haidar Al-Amin" class="profile-pic mb-3">
+      <h1 class="h4 mb-0">Shifat Haidar Al-Amin</h1>
+      <small class="text-muted">PhD in Computer Science • UMass Lowell</small>
+    </div>
+
+    <nav id="sideNav" class="nav flex-column gap-1">
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#research">Research</a>
+      <a class="nav-link" href="#teaching">Teaching</a>
+      <a class="nav-link" href="#media">Media & Recognition</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <a class="nav-link" href="assets/resume/Resume of Shifat Haider Al - Amin.pdf" target="_blank">Resume</a>
+    </nav>
+
+    <!-- Mobile menu hint -->
+    <div class="d-lg-none mt-3">
+      <div class="alert alert-info p-2 mb-0">
+        Use the menu above to jump between sections.
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="main">
+    <!-- Top navbar for small screens -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-lg-none">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Shifat Haidar Al-Amin</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav"
+          aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mobileNav" class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+            <li class="nav-item"><a class="nav-link" href="#teaching">Teaching</a></li>
+            <li class="nav-item"><a class="nav-link" href="#media">Media & Recognition</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+   <!-- Hero / Intro -->
+<section class="hero-section bg-light d-flex align-items-center" style="min-height: 100vh;">
+  <div class="container text-center text-lg-start">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-8">
+        <h2 class="display-6 mb-2">
+          Hi, I'm <span class="text-primary">Shifat Haider Al-Amin</span>.
+        </h2>
+        <h5 style="color:#000000">
+          A <span class="typing" style="font-weight: 600; color:#0d6efd"></span>
+        </h5>
+        <p class="lead mb-4">
+          "Two roads diverged in the woods; I took the one less traveled by and that made all the difference." - Robert Frost.
+        </p>
+
+        <!-- Social Links -->
+        <div class="d-flex gap-3">
+          <a href="mailto:mdshifat_alamin@@student.uml.edu" target="_blank" class="text-dark fs-4">
+            <i class="bi bi-envelope-fill text-primary"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/shifat-haider-al-amin-406695121/e" target="_blank" class="text-dark fs-4">
+            <i class="bi bi-linkedin text-primary"></i>
+          </a>
+          <a href="https://github.com/ShifatHaider" target="_blank" class="text-dark fs-4">
+            <i class="bi bi-github text-primary"></i>
+          </a>
+          <a href="https://scholar.google.com/citations?user=t9Rb0agAAAAJ&hl=en" target="_blank" class="text-dark fs-4">
+            <i class="bi bi-google text-primary"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+
+    <!-- About -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h3 class="section-title">About</h3>
+        <p>
+            I am Shifat Haider Al - Amin (Shifu), a 3rd year PhD student at <a href="https://www.uml.edu/sciences/computer-science/programs/doctorate.aspx"> Computer & Information Science Department</a> at <a href="https://www.uml.edu/"> UMass Lowell</a> . I am working under the supervision of <a href="https://www.cs.uml.edu/~rma1/index.html" > Prof. Ruizhe Ma </a>. 
+            My research focuses on Applied Machine Learning, Time Series Data, Multivariate Time Series, Computer Vision, and Data Science. I leverage statistical analysis and machine learning models to gain deeper insights into health sensor data and related applications.
+            <br/>
+            <br/>
+            Before joining UMass Lowell, I completed my M.S. in <a href="https://math.buet.ac.bd"/>Mathematics (Computational)</a>  at  <a href="https://math.buet.ac.bd"/>Bangladesh University of Engineering and Technology (BUET)</a>. My thesis, titled “Enumeration, Classification, and Counting of Spanning Trees in Plane 3-Trees”, was completed under the supervision of <a href="https://math.buet.ac.bd/Web/MemberDetails/e1a46021-34ee-4d29-ad23-9a7683250d1f" > Prof. Dr. Abdul Hakim Khan </a> and <a href="https://saidurrahman.buet.ac.bd/" > Prof. Dr. Saidur Rahman </a>. This work was a joint research collaboration between the Department of Mathematics and the Department of Computer Science at BUET, focusing on Graph Theory and Algorithms, supported by <a href="https://cse.buet.ac.bd/graph_drawing/" >  Graph Drawing and Information Visiulization Laboratory </a>. 
+            Prior to join at BUET, I accomplished my BSc in Mathematics from University of Dhaka. 
+            
+            <br/>
+            <br/>
+            Beyond academia, I am actively involved in community and volunteer organizations, including <a href="https://jaago.com.bd/"/>Jaago Foundation</a> ,<a href="https://vbd.com.bd/"/>Volunteer for Bangladesh</a>,  <a href="https://www.savethechildren.net/bangladesh"/>Save the Children in Bangladesh</a>,, and <a href="https://www.facebook.com/comillacyclists/"/>Cumilla Cyclists</a> . These experiences have enriched my leadership, teamwork, and problem-solving skills while connecting me with diverse communities.
+            <br/>
+            <br/>
+          To me, life is a journey of unfolding mysteries, where every challenge enriches our perspective and shapes our growth. I see life as a form of poetry—woven with experiences, emotions, and reflections. 
+          As a lover of poems, I truly believe that Poems, Prayers, and Promises intertwine in guiding us through this journey.
+           In other words, life becomes a poetry if you embark yourself within it. Hence, being the lover of poem, I do believe Poem, Prayers, & Promises stay together.
+
+            Sigh!
+        </p>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section id="research" class="py-5 bg-light">
+      <div class="container">
+        <h3 class="section-title">Research</h3>
+        <p>
+          Highlights include ML/DL security, data systems, and HCI evaluations for tooling like Colab vs. Jupyter.
+          Ongoing work explores trustworthy model training and efficient data workflows for instruction-scale classes.
+        </p>
+       
+      </div>
+    </section>
+
+    <!-- Teaching -->
+    <section id="teaching" class="py-5">
+      <div class="container">
+        <h3 class="section-title">Teaching</h3>
+        <div class="row g-4">
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title mb-1">Teaching Assistant</h5>
+                <h6 class="card-subtitle text-muted mb-2">Apr 2019 – Dec 2019</h6>
+                <p class="card-text">
+                  BUET: Linear Algebra, Partial Differential Equations, Numerical Analysis,
+                  Multivariate Calculus, Intro to Statistics & Probability. Assisted with lecture notes and grading.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title mb-1">Graduate Teaching Assistant</h5>
+                <h6 class="card-subtitle text-muted mb-2">Fall 2023 – Spring 2024</h6>
+                <p class="card-text">
+                  UMass Lowell: Taught Computation Lab I (1030) and Computation Lab II (1040).
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title mb-1">Graduate Teaching Assistant</h5>
+                <h6 class="card-subtitle text-muted mb-2">Fall 2024 – Spring 2025</h6>
+                <p class="card-text">
+                  UMass Lowell: Algorithms (COMP.5030) in Fall 2024;
+                  ML/DL Security (COMP.4600) and Database II (COMP.3100) in Spring 2025.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title mb-1">Graduate Teaching Assistant</h5>
+                <h6 class="card-subtitle text-muted mb-2">Fall 2025 – Spring 2026</h6>
+                <p class="card-text">
+                  UMass Lowell: Currently TA for Operating Systems I (COMP.5150) in Fall 2025.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Media & Recognition -->
+    <section id="media" class="py-5 bg-light">
+      <div class="container">
+        <h3 class="section-title">Media & Recognition</h3>
+        <p class="mb-3">Add selected press mentions, posters, awards, or links here.</p>
+        <ul class="mb-0">
+          <li>Example: Poster accepted at <em>XYZ</em> 2025 — <a href="#" aria-label="Poster link">[Poster]</a></li>
+          <li>Example: Department news feature — <a href="#" aria-label="News link">[Read]</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h3 class="section-title">Contact</h3>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="border rounded p-3 h-100">
+              <address class="mb-0">
+                <strong>Miner School of Computer & Informations sciences</strong><br />
+                University of Massachusetts Lowell<br />
+                Lowell, MA - 01854, United States
+              </address>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="border rounded p-3 h-100">
+              <p class="mb-2">
+                <a class="btn btn-outline-primary btn-sm" href="mailto:shifat_al_amin@student.uml.edu" aria-label="Email Shifat">
+                  <i class="bi bi-envelope"></i> Email Me
+                </a>
+              </p>
+              <p class="mb-0">
+                <a href="mailto:mdshifat_alamin@student.uml.edu">mdshifat_alamin@student.uml.edu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-4 border-top">
+      <div class="container small text-muted">
+        © <span id="year"></span> Shifat Haidar Al-Amin. All rights are reserved. 
+      </div>
+    </footer>
+  </main>
+
+   
+ 
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Passionate Researcher", "Tech Enthusiast", "Curious Traveler", "Storyteller", "Pluviophile"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+ 
+   <!-- jQuery-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+   <!-- Materialize -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+   <script>
+     // Materialize - Initializers
+     $(document).ready(function () {
+       $(".scrollspy").scrollSpy()
+       // Initialize collapse button
+       $(".button-collapse").sideNav({
+         menuWidth: 190, // Default is 240
+         edge: "left", // Choose the horizontal origin
+         closeOnClick: true // Closes side-nav on <a> clicks
+       })
+     })
+   </script>
+  <!-- Bootstrap JS  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+ 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+ 
+</body>
+</html>
